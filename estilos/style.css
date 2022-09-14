@@ -38,9 +38,34 @@ section#telefone{
 }
 
 iframe#tela{
+    /*Estilo o iframe da tela do celular*/
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 267px;
     height: 471px;
+}
+
+section#redes-sociais {
+    /*Alinhando o texto da secção com o id redes sociais*/
+    text-align: right;
+}
+
+section#redes-sociais img {
+    /*editando os elemntos img da seção com a id redes sociais*/
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    /*Agora a borda faz parte da caixa*/
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    /*editando os elemntos img da seção com a id redes sociais quando o mouse estiver em cima*/
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    box-sizing: 5px 5px 10px rgba(0, 0, 0, 0.596);
+    transition: transform .3s;
 }
